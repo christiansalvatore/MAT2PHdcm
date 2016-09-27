@@ -38,7 +38,7 @@ function output = mat2phdcm(varargin)
 % Copyright (C) 2016, Christian Salvatore
 % All rights reserved.
 %
-% This file made available under the terms of the BSD license
+% This file made available under the terms of the MIT license
 % (see the COPYING file).
 
 % Parse input variables
