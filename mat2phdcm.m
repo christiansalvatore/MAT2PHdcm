@@ -58,6 +58,7 @@ switch method
         end
         files = dir( fullfile(input,['*.' input_format]) );
         files = {files.name}';
+        isfile = zeros(numel(files),1);
         for i = 1:numel(files)
             isfile(i,1) = 1-isdir( fullfile(input,files{i}) );
         end
